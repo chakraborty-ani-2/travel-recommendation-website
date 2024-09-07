@@ -16,8 +16,23 @@
         </div>
     </nav>
     <main>
-        <div id="main_content_container">
-            <h1>Contact Us Page</h1>
+        <div id="main_content_container" style="flex-direction: row; justify-content: start; align-items: center">
+            <h1 id="contactpage_title">Contact Us</h1>
+            <div id="contact_form">
+                <div class="contact_form_fields">
+                    <label for="contact_name">Name</label for="">
+                    <input type="text" name="contact_name" id="contact_name" placeholder="Enter name">
+                </div>
+                <div class="contact_form_fields">
+                    <label for="contact_email">Email</label for="">
+                    <input type="text" name="contact_email" id="contact_email" placeholder="Enter email">
+                </div>
+                <div class="contact_form_fields">
+                    <label for="contact_message">Message</label for="">
+                    <textarea name="contact_message" id="contact_message" placeholder="Enter message"></textarea>
+                </div>
+                <button id="form_submit_button">Submit</button>
+            </div>
         </div>
     </main>
 </body>
