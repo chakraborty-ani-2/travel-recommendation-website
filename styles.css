@@ -99,7 +99,7 @@ nav ul li a:hover {
     background-color: #2d2d2da9;
     z-index: 1;
     border-radius: 8px;
-    display: flex;
+    display: none;
     justify-content: start;
     align-items: center;
     flex-direction: column;

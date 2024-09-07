@@ -52,6 +52,7 @@ const handleSearchSubmit = async () => {
 
     const resultsDiv = document.getElementById("search_results_container")
     resultsDiv.innerHTML = ''
+    resultsDiv.style.display = "flex"
 
     if (results === null) {
         resultsDiv.innerHTML = '<p>No results found.</p>';
@@ -71,4 +72,14 @@ const handleSearchSubmit = async () => {
             </div>
         `
     })
-} 
+}
+
+// handle clear
+const handleClear = () => {
+    const inputField = document.getElementById("search_input")
+    inputField.value = ""
+
+    const resultsDiv = document.getElementById("search_results_container")
+    resultsDiv.innerHTML = ''
+    resultsDiv.style.display = "none"
+}
