@@ -50,5 +50,25 @@ const handleSearchSubmit = async () => {
 
     const results = await filterData(inputData)
 
-    console.log("results ---> ", results)
+    const resultsDiv = document.getElementById("search_results_container")
+    resultsDiv.innerHTML = ''
+
+    if (results === null) {
+        resultsDiv.innerHTML = '<p>No results found.</p>';
+        return;
+    }
+
+    results.forEach(result => {
+        resultsDiv.innerHTML += `
+            <div class="results_card_container">
+                <div class="results_card_image_container">
+                    <image src="${result.imageUrl}" alt"" class="results_card_image" />
+                </div>
+                <div style="padding: 1rem">
+                    <div class="results_card_title">${result.name}</div>
+                    <div class="results_card_subtitle">${result.description}</h6>
+                </div>
+            </div>
+        `
+    })
 } 
