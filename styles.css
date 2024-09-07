@@ -124,3 +124,62 @@ main {
     color: #d0d0d0;
     margin-left: 5rem;
 }
+
+#aboutpage_title {
+    width: 350px;
+    font-size: 72px;
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-bottom: 0;
+}
+
+#aboutpage_subtitle {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    line-height: 1.25rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#team_section {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+#team_title {
+    width: 350px;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    margin-top: 0;
+}
+
+#team_card {
+    width: 200px;
+    background-color: #2d2d2da9;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+#team_card_title {
+    margin: 0;
+    font-size: 24px;
+}
+
+#team_card_position {
+    width: 100%;
+    background-color: #6DB2FE;
+    color: #2d2d2d;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+}
