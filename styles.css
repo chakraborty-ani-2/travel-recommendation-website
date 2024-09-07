@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f1f2f1;
+}
+
+nav {
+    height: 70px;
+    background-color: #2d2d2d;
+    display: flex;
+    padding: 0 1rem;
+}
+
+#company_name_navlinks_container {
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#company_name {
+    color: #6DB2FE;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: #f1f2f1;
+}
+
+nav ul li a:hover {
+    color: #6DB2FE;
+}
+
+#searchbox_container {
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5rem;
+}
+
+#search_input {
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+
+#search_button {
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 14px;
+	border: none;
+	border-radius: 8px;
+    background-color: #6DB2FE;
+    cursor: pointer;
+    color: #2d2d2d;
+}
+
+#clear_button {
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 14px;
+	border: none;
+	border-radius: 8px;
+    background-color: #6DB2FE;
+    cursor: pointer;
+    color: #2d2d2d;
+}
+
+main {
+    margin: 0;
+    padding: 1rem;
+    height: calc(100vh - 102px);
+    background-image: url(https://media.timeout.com/images/106073910/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#main_content_container {
+    width: calc(100vw - 32px);
+    height: 100%;
+    padding: 0 1rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9052871148459384) 0%, rgba(48,48,48,0.6811099439775911) 50%, rgba(255,255,255,0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+#homepage_title {
+    width: 350px;
+    font-size: 72px;
+    font-weight: bold;
+    margin-left: 5rem;
+}
+
+#homepage_subtitle {
+    width: 350px;
+    margin-top: 2rem;
+    line-height: 1.25rem;
+    font-size: 14px;
+    color: #d0d0d0;
+    margin-left: 5rem;
+}

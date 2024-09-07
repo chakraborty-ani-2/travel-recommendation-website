@@ -2,17 +2,29 @@
 <html lang="en">
 <head>
     <title>Travreco | Travel Recommendation</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="travel-recommendation.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+        <div id="company_name_navlinks_container">
+            <h2 id="company_name">Travreco</h2>
+            <ul>
+                <li><a href="travel-recommendation.html" class>Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="searchbox_container">
+            <input type="text" name="search_input" id="search_input" placeholder="Enter a destination or keyword">
+            <button id="search_button">Search</button>
+            <button id="clear_button">Clear</button>
+        </div>
     </nav>
     <main>
-        <h1>Home Page</h1>
+        <div id="main_content_container">
+            <div id="homepage_title">EXPLORE DREAM DESTINATION</div>
+            <div id="homepage_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean neque metus, porttitor at felis eu, aliquam pulvinar diam. Suspendisse ornare rhoncus justo, nec laoreet lacus aliquam sit amet. Duis sollicitudin dapibus ultricies.</div>
+        </div>
     </main>
 </body>
 </html>
